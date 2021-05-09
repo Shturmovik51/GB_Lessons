@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D54876F-75AB-458C-B65A-46A450E28DA4}</ProjectGuid>
+    <ProjectGuid>{114DEE85-2140-4614-A2EB-76AC83C00D42}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HELLOW</RootNamespace>
-    <AssemblyName>HELLOW</AssemblyName>
+    <RootNamespace>HW_1</RootNamespace>
+    <AssemblyName>HW_1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleWork\MyConsole.cs" />
+    <Compile Include="Methods\MyMethods.cs" />
+    <Compile Include="Arrais\MyArrais.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
