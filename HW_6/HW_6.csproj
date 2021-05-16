@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D54876F-75AB-458C-B65A-46A450E28DA4}</ProjectGuid>
+    <ProjectGuid>{BE4C0267-BDF8-46D1-9084-763475A9CCF8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HELLOW</RootNamespace>
-    <AssemblyName>HELLOW</AssemblyName>
+    <RootNamespace>HW_6</RootNamespace>
+    <AssemblyName>HW_6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HW_6_1\TableOfFunc.cs" />
+    <Compile Include="HW_6_2\MinOfFunc.cs" />
+    <Compile Include="HW_6_3\TableOfStudents.cs" />
+    <Compile Include="MyConsoleWork\MyConsole.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

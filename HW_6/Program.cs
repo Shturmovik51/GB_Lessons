@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HW_6.MyConsoleWork;
 
-namespace HELLOW
-{
+namespace HW_6
+{    
     class Program
-    {
+    {  
         static void Main(string[] args)
         {
+            MyConsole my = new MyConsole();
+            my.TaskSwitcher();
         }
     }
 }
