@@ -39,7 +39,7 @@ namespace HW_7_WPF
 
         private void ButtonEnterNum(object sender, RoutedEventArgs e)
         {
-            bubble.Content = logics.Messenger(logics.Comparator(int.Parse(txt.Text))); 
+            logics.OnEnterNum();
         }
 
         private void ButtonGenerateNum(object sender, RoutedEventArgs e)

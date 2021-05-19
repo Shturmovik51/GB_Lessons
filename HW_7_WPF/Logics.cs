@@ -41,6 +41,17 @@ namespace HW_7_WPF
             img3.Visibility = Visibility.Visible;
         }
 
+        public void OnEnterNum()
+        {
+            if (char.IsDigit(char.Parse(txt.Text)))
+                bubble.Content = Messenger(Comparator(int.Parse(txt.Text)));
+            else
+            {
+                txt.Text = string.Empty;
+                bubble.Content = "Не число";
+            }
+        }
+
         public int Comparator(int number)
         {
             count++;
