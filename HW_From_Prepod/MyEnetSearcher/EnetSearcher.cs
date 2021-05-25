@@ -61,7 +61,8 @@ namespace HW_From_Prepod.MyEnetSearcher
                         PRESSUREmin = FORECAST.Element("PRESSURE").Attribute("min").Value,
                         PRESSUREmax = FORECAST.Element("PRESSURE").Attribute("max").Value,
                         WINDmin = FORECAST.Element("WIND").Attribute("min").Value,
-                        WINDmax = FORECAST.Element("WIND").Attribute("max").Value
+                        WINDmax = FORECAST.Element("WIND").Attribute("max").Value,
+                        WINDdir = FORECAST.Element("WIND").Attribute("direction").Value
                     }
                     );
             }

@@ -27,10 +27,10 @@ namespace HW_From_Prepod
 
             ObservableCollection<View> allViews = new ObservableCollection<View>
             {
-                new View(date1, tMin1, tMax1, pMin1, pMax1, wMin1, wMax1),
-                new View(date2, tMin2, tMax2, pMin2, pMax2, wMin2, wMax2),
-                new View(date3, tMin3, tMax3, pMin3, pMax3, wMin3, wMax3),
-                new View(date4, tMin4, tMax4, pMin4, pMax4, wMin4, wMax4)
+                new View(date1, tMin1, tMax1, pMin1, pMax1, wind1, wDir1),
+                new View(date2, tMin2, tMax2, pMin2, pMax2, wind2, wDir2),
+                new View(date3, tMin3, tMax3, pMin3, pMax3, wind3, wDir3),
+                new View(date4, tMin4, tMax4, pMin4, pMax4, wind4, wDir4)
             };
             print.views = allViews;
         }

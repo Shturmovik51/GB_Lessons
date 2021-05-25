@@ -23,9 +23,9 @@ namespace HW_From_Prepod.Printer
                 views[i].tMax.Text = model.TEMPERATUREmax;
                 views[i].pMin.Text = model.PRESSUREmin;
                 views[i].pMax.Text = model.PRESSUREmax;
-                views[i].wMin.Text = model.WINDmin;
-                views[i].wMax.Text = model.WINDmax;
-            }
+                views[i].wind.Text = model.WINDmin + model.WINDmax;
+                views[i].wDir.Text = model.WINDdir;
+            };                
         }
     }
 }

@@ -20,8 +20,8 @@
             <TextBox x:Name="tMax1" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMin1" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMax1" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMin1" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMax1" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wind1" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wDir1" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         </StackPanel>
         <StackPanel x:Name="panel2" HorizontalAlignment="Left" Height="236" Margin="165,20,0,0" VerticalAlignment="Top" Width="150">
             <TextBox x:Name="date2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
@@ -29,8 +29,8 @@
             <TextBox x:Name="tMax2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMin2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMax2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMin2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMax2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wind2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wDir2" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         </StackPanel>
         <StackPanel x:Name="panel3" HorizontalAlignment="Left" Height="236" Margin="320,20,0,0" VerticalAlignment="Top" Width="150">
             <TextBox x:Name="date3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
@@ -38,8 +38,8 @@
             <TextBox x:Name="tMax3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMin3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMax3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMin3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMax3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wind3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wDir3" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         </StackPanel>
         <StackPanel x:Name="panel4" HorizontalAlignment="Left" Height="236" Margin="475,20,0,0" VerticalAlignment="Top" Width="150">
             <TextBox x:Name="date4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
@@ -47,8 +47,8 @@
             <TextBox x:Name="tMax4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMin4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBox x:Name="pMax4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMin4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBox x:Name="wMax4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wind4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBox x:Name="wDir4" Height="30" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         </StackPanel>
 
     </Grid>
